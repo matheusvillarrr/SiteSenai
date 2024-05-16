@@ -4,9 +4,16 @@ html {
     padding: 0;
     height: 100%;
 }
-
+body {
+    background-color: #e2dfdf; 
+    background-image: url(../SiteSenai-main/img/fundosite.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+/* ------------------- NAV ------------------- */
 nav {
-    background-color: rgb(158, 207, 158);
     padding: 10px 20px; 
     color: black;
     display: flex;
@@ -14,12 +21,9 @@ nav {
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-
-body {
-    background-color: #e2dfdf; 
+nav{
+    height: auto;
 }
-
 
 .nav-links ul {
     margin: 0;
@@ -30,7 +34,7 @@ body {
 }
 
 .nav-links ul li {
-    margin-left: 20px;
+    margin-right: 70px;
 }
 
 .nav-links ul li a {
@@ -45,29 +49,20 @@ body {
 }
 
 .logo img {
-    height: 80px;
-}
-header {
-    text-align: center;
-    padding: 50px 20px;
-    
+    height: 150px;
 }
 
-.destaque {
-    border: 1px solid #ffffff;
-    padding: 20px;
-    margin: 20px;
-}
-
-.logo2 {
-    text-align: center; 
-    margin-top: 50px; 
-}
-
+/* ------------------- FOOTER ------------------- */
 footer {
+    color: rgb(90, 97, 103);
     text-align: center;
-    padding: 10px; 
-    background-color:rgb(158, 207, 158);
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer a {
+    text-decoration: none;
+    color: cornsilk;
+    border: 10px white fixed;
 }
