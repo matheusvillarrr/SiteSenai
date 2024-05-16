@@ -102,6 +102,28 @@ h2 {
     background-color: #ccc;
     padding: 7%;
     margin: 20px auto; /* Centraliza horizontalmente */
-    max-width: 800px;
+    max-width: 800px; 
     text-align: center;
+}
+
+.descricao{
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: black;
+    align-items: center;
+    font-weight: bold;
+    margin: 0px;
+}
+
+#linkinsta{
+    text-decoration: none;
+    color: black;   
+    font-size: 10px;
+    align-items: center;
+}
+#logoinsta{
+    width: 16px;
+    height: 16px;
+    align-items: center;
+    margin-top: 0px;
 }
